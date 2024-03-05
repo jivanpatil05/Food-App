@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/Fragment_Home"
+        android:name="com.example.foodapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/Fragment_About"
+        android:name="com.example.foodapp.ProfileFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/Fragment_Mycart"
+        android:name="com.example.foodapp.SettingFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_setting" />
+
+
+</navigation>
